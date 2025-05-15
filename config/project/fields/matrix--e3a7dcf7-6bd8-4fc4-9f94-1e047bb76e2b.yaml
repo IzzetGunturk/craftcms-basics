@@ -1,0 +1,31 @@
+columnSuffix: null
+handle: matrix
+instructions: null
+name: matrix
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 1534483c-ae8c-49a3-a1fa-ad7d24dda266 # heroblock
+    -
+      __assoc__:
+        -
+          - uid
+          - 141dc396-ce12-49c3-9b23-5bcac3698114 # textblock
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

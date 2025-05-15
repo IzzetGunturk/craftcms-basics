@@ -1,0 +1,43 @@
+{% set header = craft.globalSets.handle('nav').one() %}
+
+{% if header %}
+    <header class="site-header">
+        <div class="container flex items-center justify-between py-4">
+
+            {# Logo #}
+            <div>
+                {% if header.logo.one() %}
+                    <a href="{{ siteUrl }}">
+                        <img class="logo" src="{{ header.logo.one().url }}" alt="Logo">
+                    </a>
+                {% endif %}
+            </div>
+
+            {# Navigatie #}
+            <nav>
+                <ul>
+                    {% for item in header.navigationlinks %}
+                        {% if item.type.handle == 'link' %}
+                            <li>
+                                <a href="{{ item.links }}">
+                                    {{ item.navigationname }}  {# Weergeeft de naam van de link #}
+                                </a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+{% endif %}
+
+<style>
+    .logo {
+        width: 10px;
+    }
+
+    li {
+        color: red;
+    }
+</style>

@@ -1,0 +1,55 @@
+color: null
+fieldLayouts:
+  64de48e5-094f-42c4-ae45-c749a20197cd:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-05-15T17:00:56+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 37d17f6c-b65c-4271-a9cf-11e638dbd49f # Header Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f2b72cbc-74d2-4df7-9340-7a6302d2dd7c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-15T17:00:56+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 90f177f6-9c40-4037-abc6-492335432020 # image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5e6313e8-7d50-497b-a210-b8470ec334dd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 7b5c8aae-74b8-462a-a477-8f13bcb300ae
+        userCondition: null
+handle: heroblock
+hasTitleField: false
+icon: null
+name: heroblock
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

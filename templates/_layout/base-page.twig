@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ entry.title }} - Izzet</title>
+
+    <!-- Voeg de gecompileerde CSS toe -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<main>
+    <!-- Header invoegen -->
+    {% include '_layout/header.twig' %}
+
+    {% block main %}
+        {# De inhoud van je pagina komt hier #}
+    {% endblock %}
+</main>
+
+<!-- Voeg het gecompileerde JavaScript toe -->
+<script src="/assets/js/app.js"></script>
+
+</body>
+</html>

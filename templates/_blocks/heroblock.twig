@@ -1,0 +1,7 @@
+<h1>{{ block.headerText }}</h1>
+{% set image = block.image.one() %}
+{% if image %}
+    <img src="{{ image.url }}" alt="{{ image.title }}">
+{% else %}
+    <p>Geen afbeelding gekoppeld.</p> {# of laat dit gewoon weg als je niks wilt tonen #}
+{% endif %}

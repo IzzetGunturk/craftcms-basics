@@ -1,0 +1,15 @@
+{#{% switch block.type %}#}
+{#{% case 'textblock' %}#}
+{#        {% include '_blocks/textblock.twig' with {'block': block} %}#}
+{#    {% default  %}#}
+{#    <h2>this type of block is not yet supported</h2>#}
+{#{% endswitch %}#}
+
+{% switch block.type.handle %}
+{% case 'textblock' %}
+    {% include '_blocks/textblock.twig' with {'block': block} %}
+{% case 'heroblock' %}
+    {% include '_blocks/heroblock.twig' with {'block': block} %}
+{% default %}
+    <h2>This block type is not yet supported</h2>
+{% endswitch %}

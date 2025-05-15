@@ -1,0 +1,7 @@
+{% extends "_layout/base-page.twig" %}
+
+{% block main %}
+    {% for block in entry.matrix.all() %}
+        {% include '_blocks/block_mapper.twig' with {'block': block} %}
+    {% endfor %}
+{% endblock %}

@@ -1,0 +1,47 @@
+dateModified: 1747335665
+email:
+  fromEmail: izzetgunturk2@hotmail.com
+  fromName: craft
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  local:
+    hasUrls: true
+    name: local
+    settings:
+      path: '@webroot'
+    type: craft\fs\Local
+    url: '@web'
+meta:
+  __names__:
+    1d6bc8fd-f2c9-4574-9e57-f275a8f8be15: link # link
+    3d96256f-b6d2-47a1-8f8c-0a10041ab9ca: plain # plain
+    8a929eae-be41-47c6-bf1a-0d258c98112b: craft # craft
+    9e2879af-e469-43b9-a34a-3d346cd21504: navigationname # navigationname
+    23a7ea34-387c-4850-b27a-69be589e7521: assets # assets
+    37d17f6c-b65c-4271-a9cf-11e638dbd49f: 'Header Text' # Header Text
+    59f8cad5-ae18-4e91-a3a5-12944c681a97: logo # logo
+    90f177f6-9c40-4037-abc6-492335432020: image # image
+    93a2f3f5-9f36-492c-8688-43f600d49e6d: pagebuilder # pagebuilder
+    141dc396-ce12-49c3-9b23-5bcac3698114: textblock # textblock
+    672ca805-28e4-4cad-9b90-d3fd757fe6e6: Nav # Nav
+    990b323d-4863-4856-b363-41b157696e93: subheader # subheader
+    03175c5b-c026-4ab9-b5c0-632538933576: Homepage # Homepage
+    1534483c-ae8c-49a3-a1fa-ad7d24dda266: heroblock # heroblock
+    cc9651ce-50af-4b13-94b6-f94d2329580f: craft # craft
+    e3a7dcf7-6bd8-4fc4-9f94-1e047bb76e2b: matrix # matrix
+    e50421b3-16f5-4746-b5c2-f36e21892daa: Pages # Pages
+    f498e2c2-83df-4e13-96f1-e8d607da29d8: link # link
+    fbeca2d8-ac63-441e-a882-fc03b5946419: navigationlinks # navigationlinks
+system:
+  edition: solo
+  live: true
+  name: craft
+  schemaVersion: 5.7.0.3
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

@@ -1,0 +1,46 @@
+fieldLayouts:
+  9b9d706f-7f2e-4c3f-ae82-b1d615f41ca1:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-05-15T17:10:24+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 59f8cad5-ae18-4e91-a3a5-12944c681a97 # logo
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 31768cc4-49c4-4808-b471-ef9475143b7f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-15T17:10:24+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: fbeca2d8-ac63-441e-a882-fc03b5946419 # navigationlinks
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9c31da6e-dc6b-427a-bd52-08aa2f238c5e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e528650a-c631-4eec-9dba-53a0f49a567e
+        userCondition: null
+handle: nav
+name: Nav
+sortOrder: 1
